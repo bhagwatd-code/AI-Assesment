@@ -1,64 +1,19 @@
-body{
-  font-family: Arial, sans-serif;
-  background:#f4f6f9;
-  margin:0;
-  padding:20px;
+.option-btn {
+  padding: 14px;
+  border: 2px solid #cbd5e1;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+  color: black;   /* Added this */
+  text-align: left;
+  transition: 0.3s;
+  font-size: 15px;
 }
-.container{
-  max-width:900px;
-  margin:auto;
+
+.option-btn:hover {
+  background: #f1f5f9;
+  color: black;   /* Added this */
 }
-.quiz-card{
-  background:white;
-  padding:30px;
-  border-radius:10px;
-  box-shadow:0 4px 10px rgba(0,0,0,0.1);
-}
-h1{
-  text-align:center;
-}
-.top-bar{
-  display:flex;
-  justify-content:space-between;
-  margin:20px 0;
-  flex-wrap:wrap;
-  gap:10px;
-}
-.options{
-  display:flex;
-  flex-direction:column;
-  gap:10px;
-}
-.option-btn{
-  padding:12px;
-  border:1px solid #ccc;
-  border-radius:8px;
-  cursor:pointer;
-  background:white;
-}
-.option-btn:hover{
-  background:#f1f5f9;
-}
-.correct{
-  background:#22c55e !important;
-  color:white;
-}
-.wrong{
-  background:#ef4444 !important;
-  color:white;
-}
-.feedback{
-  margin-top:20px;
-}
-button{
-  padding:12px 18px;
-  border:none;
-  background:#2563eb;
-  color:white;
-  border-radius:8px;
-  cursor:pointer;
-  margin-top:20px;
-}
-.hidden{
-  display:none;
+.option-btn strong {
+  color: black;
 }
