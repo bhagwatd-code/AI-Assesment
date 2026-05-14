@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Platforms Knowledge Assessment</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="quiz-card">
+      <h1>AI Platforms Knowledge Assessment</h1>
+
+      <div class="top-bar">
+        <div>Question: <span id="progress">1/100</span></div>
+        <div>Score: <span id="score">0</span></div>
+        <div>Time Left: <span id="timer">45:00</span></div>
+      </div>
+
+      <div id="quiz-container">
+        <h2 id="question"></h2>
+        <div id="options" class="options"></div>
+        <div id="feedback" class="feedback"></div>
+        <button id="next-btn">Next Question</button>
+      </div>
+
+      <div id="result-container" class="hidden">
+        <h2>Assessment Completed</h2>
+        <p>Total Score: <span id="final-score"></span></p>
+        <p>Percentage: <span id="percentage"></span>%</p>
+        <p>Performance: <span id="performance"></span></p>
+        <button onclick="restartQuiz()">Restart Quiz</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
